@@ -1,0 +1,766 @@
+<!doctype html>
+<html class="no-js" lang="">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" media="all">
+      <link href="assets/css/font-awesome.css" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/style1.css" type="text/css" media="all">
+      <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+      <title>Cypherock</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+      <link rel="stylesheet" href="https://in.godaddy.com/assets/wrhs-assets/466302e628274141ad3e9e11a0b7b2f3/uxcore2.min.css" media="all"/>
+      <link rel="stylesheet" href="https://in.godaddy.com/assets/wrhs-assets/077331a53339646e2699b1f23cced880/salesheader.min.css" media="all"/>
+      <link rel="stylesheet" type="text/css" href="https://in.godaddy.com/assets/cms/sales/css/sales-cms-dfafc1488c8667124afb9c16878b956d.min.css">
+      </link>
+      <link rel="stylesheet" href="assets/css/fonticons.css">
+      <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="assets/css/plugins.css" />
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/responsive.css" />
+      <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <!--  <style type="text/css">
+
+
+table {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-collapse: collapse;
+  margin-bottom:1em;
+
+  th, td {
+    padding: 0.5em 1em;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    white-space: pre;
+  }
+
+  thead th,
+  tbody td {
+    text-align: center;
+  }
+
+  // Custom Styles
+  thead {
+    color: white;
+    background: #0cf;
+
+    th {
+      padding: 1em;
+    }
+  }
+
+  &[data-comparing="active"] tbody th {
+    border-bottom: none;
+    font-size: 0.75em;
+    color: #767676;
+    padding-bottom: 0;
+  }
+
+}
+</style>
+
+
+<script type="text/javascript">
+   // CONFIGS
+var tableSelector = 'table';
+var targetBreakpoint = 500;
+var currentVisibleColumn = 1;
+var nextButtonText = 'Compare Next';
+
+// SETUP/SELECT REUSABLE ELEMENTS
+var table = document.querySelector( tableSelector );
+var allCells = table.querySelectorAll('th, td');
+var columnHeaders = table.querySelectorAll('thead th:not(:empty)');
+var rowHeaders = table.querySelectorAll('tbody th');
+var nextButton = document.createElement('button');
+
+function createButtons() {
+  nextButton.textContent = nextButtonText;
+  nextButton.style.display =  'none';
+
+  table.parentNode.insertBefore(nextButton, table.nextSibling );
+
+  nextButton.addEventListener('click', function(){
+    currentVisibleColumn = currentVisibleColumn + 1 > columnHeaders.length ? 1 : currentVisibleColumn + 1;
+    showCurrentlyVisible();
+  });
+}
+
+function showCurrentlyVisible() {
+    // Get the Items we're going to show. The :not(:empty) query here is because sometimes you have empty <th>s in <thead>
+    var currentlyVisibleColHeader = document.querySelector('thead th:not(:empty):nth-of-type( '+ currentVisibleColumn +')');
+    var currentlyVisibleCells = document.querySelectorAll('tbody td:nth-of-type(' +currentVisibleColumn+ ')');
+
+    // Hide All The Cells
+    for(var i=0;i<allCells.length;i++ ) {
+      allCells[i].style.display = 'none';
+    }
+
+    // Show Currently Visible Col Header
+    currentlyVisibleColHeader.style.display = 'block';
+
+    // Show Currently Visible Cells
+    for( var i=0;i<currentlyVisibleCells.length;i++) {
+      currentlyVisibleCells[i].style.display = 'block';
+    }
+
+    // Show Row Headers
+    for( var i=0;i<rowHeaders.length;i++) {
+      rowHeaders[i].style.display = 'block';
+    }
+}
+
+function updateTable() {
+
+  // Get the Table's Width. Might as well go FULL Container Query over here.
+  var tableWidth = table.getBoundingClientRect().width;
+
+  // If the table explodes off the viewport or is wider than the target breakpoint
+  if ( tableWidth > window.innerWidth || tableWidth < targetBreakpoint ) {
+
+    if(table.getAttribute('data-comparing') != 'active') {
+      // Set the comparison state to "Active"
+      table.setAttribute('data-comparing','active');
+
+      // Show Next Button
+      nextButton.style.display =  'block';
+
+      // Show the currently visible column
+      showCurrentlyVisible();
+
+    }
+
+  } else {
+
+    if(table.getAttribute('data-comparing') == 'active') {
+
+      // Turn off comparing
+      table.setAttribute('data-comparing','');
+
+      // Hide the next button
+      nextButton.style.display =  'none';
+
+      // Remove styles from all cells, ergo, show all the cells
+      for( var i=0;i<allCells.length;i++ ) {
+        allCells[i].style.display = '';
+      }
+
+      // Remove styles from all row headers
+      for( var i=0;i<rowHeaders.length;i++) {
+        rowHeaders[i].style.display = '';
+      }
+    }
+  }
+}
+
+createButtons();
+updateTable();
+window.addEventListener('resize', updateTable);
+</script-->
+   </head>
+   <body data-spy="scroll" data-target=".navbar-collapse">
+      <div class='preloader'>
+         <div class='loaded'>&nbsp;</div>
+      </div>
+      <div class="culmn">
+         <header id="main_menu" class="header navbar-fixed-top">
+            <div class="main_menu_bg">
+               <div class="container">
+                  <div class="row">
+                     <div class="nave_menu">
+                        <nav class="navbar navbar-default">
+                           <div class="container-fluid">
+                              <!-- Brand and toggle get grouped for better mobile display -->
+                              <div class="navbar-header">
+                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                 <span class="sr-only">Toggle navigation</span>
+                                 <span class="icon-bar"></span>
+                                 <span class="icon-bar"></span>
+                                 <span class="icon-bar"></span>
+                                 </button>
+                                 <a class="navbar-brand" href="#home">
+                                 <img style="margin-top: 18px;" width="250" src="assets/images/logo.png"/>
+                                 </a>
+                              </div>
+                              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                 <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#home">HOME</a></li>
+                                    <li><a href="#about"> About</a></li>
+                                    <li><a href="#service">Features</a></li>
+                                    <li><a href="#Applications">Applications</a></li>
+                                  	<li><a href="#home1">Roadmap</a></li>
+                                    <li><a href="#contact">CONTACT</a></li>
+
+                                 </ul>
+                              </div>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <section id="home" class="home">
+            <div class="overlay">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-12 ">
+                        <div class="text-center">
+                           <div class="single_home_slider">
+                              <div class="main_home wow ">
+                                 <h1>World’s Safest Mobile Wallet</h1>
+                                 <div class="separator"></div>
+                                 <h3 style="color:white;">Fill this Survey to avail <span style="font-size:26px;">10</span><span>%</span> off</h3>
+                                 <div class="home_btn">
+                                    <a target="_blank" href="https://goo.gl/forms/rqY4NiN1jGcRMvyS2" class="btn btn-primary">Go to survey</a>
+                                      <a target="_blank" href="https://t.me/joinchat/FvwwvVEMK3XxN__pwnscMQ"><button class="btn btn-primary" >Join Us on Telegram</button</a>
+                                 </div>
+                                 <!--div>
+                                    <a target="_blank" href="https://t.me/joinchat/FvwwvVEMK3XxN__pwnscMQ" ><button class="btn-primary" style="padding-bottom:5px;">Join Us on Telegram</button</a>
+                                 </div-->
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section id="about" class="video text-center wow "  data-wow-duration="2s" data-wow-dealy="1.5s">
+            <div class="video_overlay">
+               <div class="container">
+                  <div class="row">
+                     <div class="main_video">
+                        <div class="col-sm-12">
+                           <div class="icon">
+                              <a href="https://www.youtube.com/embed/wFYyrNtcqto?&autoplay=1" class="youtube-media"><img src="assets/images/play.png" alt="play-icon" /></a>
+                              <h3>WATCH OUR STORY</h3>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="service" class="service">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-10 col-sm-offset-1">
+                     <div class="main_service_area sections text-center">
+                        <div class="row">
+                           <div class="head_title text-center">
+                              <h3>AWESOME FEATURES</h3>
+                              <div class="separator2"></div>
+                           </div>
+                           <div class="main_service_content">
+                              <div class="col-sm-4">
+                                 <div class="single_service">
+                                    <div class="single_service_icon">
+                                       <i class="fas fa-mobile-alt"></i>
+                                    </div>
+                                    <div class="single_service_content">
+                                       <h4>Mobile</h4>
+                                       <p>Make transactions at ease on the go</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="single_service">
+                                    <div class="single_service_icon">
+                                       <i class="fas fa-lock"></i>
+                                    </div>
+                                    <div class="single_service_content">
+                                       <h4>Cold + Secured By Biometric</h4>
+                                       <p>Safe as a hardware wallet + user controlled Passcodes</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="single_service">
+                                    <div class="single_service_icon">
+                                       <i class="fas fa-globe"></i>
+                                    </div>
+                                    <div class="single_service_content">
+                                       <h4>Universal Wallet + Cryptography </h4>
+                                       <p>Apart from support for diversity of cryptocurrencies, it enables digital signing, encryption/decryption using secured private keys.
+                                          .
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="border_devider"></div>
+                              <div class="col-sm-4">
+                                 <div class="single_service">
+                                    <div class="single_service_icon">
+                                       <i class="fas fa-folder-open"></i>
+                                    </div>
+                                    <div class="single_service_content">
+                                       <h4>Foldable</h4>
+                                       <p>The case could be foldable into a compact usb.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="single_service">
+                                    <div class="single_service_icon">
+                                       <i class="far fa-paper-plane"></i>
+                                    </div>
+                                    <div class="single_service_content">
+                                       <h4>Portable</h4>
+                                       <p>The main hardware component will be detachable from the case, whcih coud be ported to other device's shape and sizes</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-sm-4">
+                                 <div class="single_service">
+                                    <div class="single_service_icon">
+                                       <i class="fas fa-location-arrow"></i>
+                                    </div>
+                                    <div class="single_service_content">
+                                       <h4>GPS Enabled</h4>
+                                       <p>If it get's lost, you can track it</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="special-w3l" id="Applications">
+
+            <div class="container">
+              <h3 style="color: #413d4b; margin-bottom: 100px; letter-spacing: 1px; margin-left: 505px; font-size: 40px;">
+                 Applications
+              </h3>
+               <div class="wthree-services-bottom-grids">
+                  <div class="col-md-6 wthree-services-left">
+                     <div class="wthree-services-right-bottom">
+                        <div class="services-right-bottom-bottom">
+                           <div class="col-xs-10 services-bottom-info">
+                              <h4 style="font-size: 25px;">Legal</h4>
+                              <p>The government will host a permissioned blockchain to store user's identity. The user will generate a public key for that blockchain from the device without sacrificing the private key. User will then submit his public key to the government. The government will maintain mapping of authentic users and their public addresses. The user will digitally sign any document with his secured private key. The recipient on receiving the signed document will query the sender's public adddress from the government to verify the authenticity of the sender. This will ensure legal compliance in a decentralised way
+                              </p>
+                           </div>
+                           <div class="col-xs-2 services-bottom-icon">
+                              <i class="far fa-file" aria-hidden="true"></i>
+                           </div>
+                           <div class="clearfix"> </div>
+                        </div>
+                        <div class="services-right-bottom-bottom">
+                           <div class="col-xs-10 services-bottom-info">
+                              <h4 style="font-size: 25px;">NFC</h4>
+                              <p>Our case will include a programmable NFC chip to authenticate an on site payment, this will potentially replace all checkpoint cards like metro card </p>
+                           </div>
+                           <div class="col-xs-2 services-bottom-icon">
+                              <i class="fas fa-rss" aria-hidden="true"></i>
+                           </div>
+                           <div class="clearfix"> </div>
+                        </div>
+                        <div class="services-right-bottom-bottom">
+                           <div class="col-xs-10 services-bottom-info text-w3l">
+                              <h4 style="font-size: 25px;">Unified Identity</h4>
+                              <p>With the help of 24 randomly generated neumonic phrases, the users will be able to generate multiple private keys for multiple blockchain networks  hence user will be able to maintain multiple identities on these networks in a single device </p>
+                           </div>
+                           <div class="col-xs-2 services-bottom-icon">
+                              <i class="fas fa-users" aria-hidden="true"></i>
+                           </div>
+                           <div class="clearfix"> </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 wthree-services-right">
+                     <img src="assets/images/2.jpg" alt="" />
+                  </div>
+                  <div class="clearfix"> </div>
+               </div>
+            </div>
+         </div>
+<br>
+<br>
+          <section id="home1">
+            <div class="container-fluid">
+              <div>
+                  <img src="assets/images/abhi.png">
+              </div>
+            </div>
+            </div>
+         </section>
+
+
+
+         <section>
+
+                 <div class="main-content">
+             <div data-id="compare" class="vsc-table-module compare-chart-pro tile-section bg-light">
+               <h2 style="text-align:center"> Our Compeetitors</h2>
+                <div class="compare-chart-xs-no-space">
+                   <div class="compare-chart-xs-no-space">
+                      <div class="row">
+                         <div class="col-md-12 compare-chart-overflowx compare-chart-panel">
+                            <table class="compare-chart-frame compare-chart-overflowy">
+                               <thead>
+                                  <tr>
+                                     <th class="compare-chart-title compare-chart-row-header">
+                                        <div>
+                                           <div>
+                                           </div>
+                                        </div>
+                                     </th>
+                                     <!--
+                                     class="compare-chart-header"
+                                     -->
+                                     <th  style="width: auto ">
+                                        <h4 >
+                                           Cypherock
+                                        </h4>
+                                     </th>
+                                     <th  style="width:auto ">
+                                        <h4 >
+                                           Ledger Nano S
+                                        </h4>
+                                     </th>
+                                     <th  style="width:auto">
+                                        <h4 >
+                                           Bread Wallet
+                                        </h4>
+                                     </th>
+                                     <th  style="width:auto">
+                                        <h4 >
+                                           CoinBase
+                                        </h4>
+                                     </th>
+                                  </tr>
+                               </thead>
+                               <tbody>
+                                  <tr class="compare-chart-row" style="">
+                                     <td class="compare-chart-header compare-chart-full-header" colspan="4">
+                                        <div class="compare-chart-center-header">
+                                           Mobility
+                                        </div>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row " style="">
+                                     <td class="compare-chart-header compare-chart-row-header">
+                                        <div>
+                                           Mobility
+                                        </div>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>X
+                                        </div>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row" style="">
+                                     <td class="compare-chart-header compare-chart-full-header" colspan="4">
+                                        <div class="compare-chart-center-header">
+                                           Security
+                                        </div>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row " style="">
+                                     <td class="compare-chart-header compare-chart-row-header">
+                                        <div>
+                                           Security
+                                        </div>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                           X
+                                        </div>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row" style="">
+                                     <td class="compare-chart-header compare-chart-full-header" colspan="4">
+                                        <div class="compare-chart-center-header">
+                                           Diversity of Tokens
+                                        </div>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row " style="">
+                                     <td class="compare-chart-header compare-chart-row-header">
+                                        <div>
+                                           Diversity of Tokens
+                                        </div>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                           X
+                                        </div>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row" style="">
+                                     <td class="compare-chart-header compare-chart-full-header" colspan="4">
+                                        <div class="compare-chart-center-header">
+                                           Portability
+                                        </div>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row " style="">
+                                     <td class="compare-chart-header compare-chart-row-header">
+                                        <div>
+                                           Portability
+                                        </div>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row" style="">
+                                     <td class="compare-chart-header compare-chart-full-header" colspan="4">
+                                        <div class="compare-chart-center-header">
+                                           FingerPrint
+                                        </div>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row " style="">
+                                     <td class="compare-chart-header compare-chart-row-header">
+                                        <div>
+                                           FingerPrint
+                                        </div>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                           X
+                                        </div>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row" style="">
+                                     <td class="compare-chart-header compare-chart-full-header" colspan="4">
+                                        <div class="compare-chart-center-header">
+                                           Trustless
+                                        </div>
+                                     </td>
+                                  </tr>
+                                  <tr class="compare-chart-row " style="">
+                                     <td class="compare-chart-header compare-chart-row-header">
+                                        <div>
+                                           Trustless
+                                        </div>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                        </div>
+                                        <span class="uxicon uxicon-checkmark text-primary-o"></span>
+                                     </td>
+                                     <td class="compare-chart-entry " style="width:16.667%">
+                                        <div>
+                                           X
+                                        </div>
+                                     </td>
+                                  </tr>
+                               </tbody>
+                            </table>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+             </div>
+          </div>
+       </section>
+
+<!--section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+       <table>
+         <thead>
+           <tr>
+             <td></td>
+             <th>Basic</th>
+             <th>Premium</th>
+             <th>Deluxe</th>
+             <th>Business</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <th>Feature 1</th>
+             <td>✔</td>
+             <td>✔</td>
+             <td>✔</td>
+             <td>✔</td>
+           </tr>
+            <tr>
+             <th>Feature 2</th>
+             <td>❌</td>
+             <td>✔</td>
+             <td>✔</td>
+             <td>✔</td>
+           </tr>
+            <tr>
+             <th>Feature 3</th>
+             <td>❌</td>
+             <td>❌</td>
+             <td>✔</td>
+             <td>✔</td>
+           </tr>
+            <tr>
+             <th>Feature 4</th>
+             <td>❌</td>
+             <td>❌</td>
+             <td>❌</td>
+             <td>✔</td>
+           </tr>
+         <tbody>
+       </table>
+     </div>
+   </div>
+ </div>
+</section-->
+
+         <br>
+         <section id="contact" class="contact sections">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-10 col-sm-offset-1">
+                     <div class="row">
+                        <div class="contact_contant">
+                           <div class="col-sm-10">
+                              <h4>Contact Us</h4>
+                              <div class="single_contant_left">
+                                 <form action="" id="formid">
+                                    <div class="form-group">
+                                       <input type="text" style="color: black;" class="form-control" name="name" placeholder="first name" required="">
+                                    </div>
+                                    <div class="form-group">
+                                       <input type="email" style="color: black;" class="form-control" name="email" placeholder="Email" required="">
+                                    </div>
+                                    <div class="form-group">
+                                       <input type="text" style="color: black;" class="form-control" name="subject" placeholder="Subject" required="">
+                                    </div>
+                                    <div class="form-group">
+                                       <textarea style="color: black;" class="form-control" name="message" rows="8" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="">
+                                       <a href="mailto:cypherockwallet@gmail.com?Subject=Hello" target="_top"><input type="submit" value="Submit" class="btn btn-primary"></a>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                           <div class="col-sm-2">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <!-- START SCROLL TO TOP  -->
+      <div class="scrollup">
+         <a href="#"><i class="fa fa-chevron-up"></i></a>
+      </div>
+      <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+      <script src="assets/js/vendor/bootstrap.min.js"></script>
+      <script src="assets/js/jquery.magnific-popup.js"></script>
+      <script src="assets/js/jquery.mixitup.min.js"></script>
+      <script src="assets/js/jquery.easing.1.3.js"></script>
+      <script src="assets/js/jquery.masonry.min.js"></script>
+      <script src="assets/js/jquery.fancybox.pack.js"></script>
+      <script src="assets/js/plugins.js"></script>
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
