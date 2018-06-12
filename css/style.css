@@ -46,9 +46,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-/*	width: 100%;
-	height: 100%;
-	overflow-x: hidden; */
+/*	 width: 100%;
+    height: 100%;
+    overflow-x: hidden; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -419,6 +419,7 @@ p {
 
 #main {
   height: 100%;
+  width: 100%
 }
 
 
@@ -1499,6 +1500,10 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 padding: 120px 10px 50px 10px;
 }
 
+
+.third {
+padding: 120px 10px 50px 10px;
+}
 /*  --------------------------------------------------
 ------------- Reviews Section Styling ----------------
 -----------------------------------------------------*/
@@ -1895,8 +1900,8 @@ padding: 120px 10px 50px 10px;
   width: 100%;
   height: 100%;
 	overflow: hidden;
-	padding-top: 75px;
-	padding-bottom: 20px;
+	padding-top: 60px;
+	padding-bottom: 30px;
 }
 
 .contact {
@@ -2199,12 +2204,12 @@ padding: 120px 10px 50px 350px;
 
  .subscribe-form .mail {
    padding: 0 30px 0 20px;
-   border-radius: 5px 0 0 5px;
+   border-radius: 5px 5px 5px 5px;
  }
 
  .subscribe-form .submit-button {
    padding: 0 5px 0 5px;
-   border-radius: 0 5px 5px 0;
+   border-radius: 5px 5px 5px 5px;
  }
 }
 
@@ -2222,12 +2227,12 @@ padding: 120px 10px 50px 350px;
  .subscribe-form .mail {
 	 text-align: center;
    padding: 0 0 0 0;
-   border-radius: 5px 0 0 5px;
+   border-radius: 5px 5px 5px 5px;
  }
 
  .subscribe-form .submit-button {
    padding: 0 5px 0 5px;
-   border-radius: 0 5px 5px 0;
+   border-radius: 5px 5px 5px 5px;
 	 margin-top: 15px;
  }
 
@@ -2239,7 +2244,7 @@ padding: 120px 10px 50px 350px;
   .form .sub-form .subscribe-form .mail {
  	 text-align: center;
     padding: 0 0 0 0;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px 5px 5px 5px;
   }
 
   .form .sub-form .subscribe-form .submit-button {
@@ -2687,4 +2692,25 @@ animation-direction: alternate;
 
 #slider.fadeOut {
     opacity:0;
+}
+
+/*@media (max-width:780px){
+    .center-mobile{
+        display:table;
+        margin:0 auto;
+    }
+
+    .cgs{
+    	margin-left: 50px;
+    }
+}*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    /* Styles */
+    .cgs{
+    	margin-left: 50px;
+    }
 }
