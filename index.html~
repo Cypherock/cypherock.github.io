@@ -74,22 +74,22 @@
 
 		<!--  -->
 		<div class="flex-w flex-c-m p-b-35">
-			<a href="https://www.facebook.com/cypherock" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+			<!--<a href="https://www.facebook.com/cypherock" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
 				<i class="fa fa-facebook"></i>
-			</a>
+			</a> -->
 			<a href="https://twitter.com/cypherockwallet" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
 				<i class="fa fa-twitter"></i>
 			</a>
 
-			<a href="https://www.youtube.com/channel/UC9XIWQHUl7lawXgP0LIg5xg" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+			<!--<a href="https://www.youtube.com/channel/UC9XIWQHUl7lawXgP0LIg5xg" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
 				<i class="fa fa-youtube-play"></i>
-			</a>
+			</a> -->
 			<a href="https://www.linkedin.com/company/cypherock" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
 				<i class="fa fa-linkedin"></i>
 			</a>
-			<a href="https://www.reddit.com/r/cypherock" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+			<!--<a href="https://www.reddit.com/r/cypherock" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
 				<i class="fa fa-reddit"></i>
-			</a>
+			</a> -->
 			<a href="https://t.me/joinchat/FvwwvVEMK3XxN__pwnscMQ" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
 				<i class="fa fa-telegram"></i>
 			</a>
@@ -101,7 +101,7 @@
 
 
 
-	
+	  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"5ee4b6197c8e01fe89a226b32","lid":"4bfb613275"}) })</script>
 
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
