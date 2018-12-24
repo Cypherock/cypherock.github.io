@@ -36,7 +36,7 @@
 			</div>
 
 			<div class="flex-w m-t-10 m-b-10">
-				<a href="#" class="size2 m1-txt1 flex-c-m how-btn1 trans-04">
+				<a href="https://goo.gl/forms/ma0fl1G3mhaDsdLG2" target="_blank" class="size2 m1-txt1 flex-c-m how-btn1 trans-04">
 					Sign Up
 				</a>
 			</div>
@@ -46,7 +46,7 @@
 		<div class="flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-120">
 
 			<h3 class="l1-txt1 txt-center p-b-40 respon1">
-				Coming Soon
+				<font size="6"><b>Your recovery phrases deserves the same security as your Private Keys</b></font>
 			</h3>
 
 			<div class="flex-w flex-c-m cd100">
@@ -142,3 +142,9 @@
 
 </body>
 </html>
+
+Recovery - hotswap
+Bank - 6 figures
+kcash - Achain
+DarkCrystal
+
