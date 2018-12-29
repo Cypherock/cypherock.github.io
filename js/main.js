@@ -84,9 +84,13 @@
 			}
 		}, delay);
 	});
-// 	$("#mc-embedded-subscribe").on('click', function() {
-// 		$("#mc-embedded-subscribe").css("top", "-30px");
-// 	});
+	$("#mc-embedded-subscribe").click(function() {
+		let temp2 = $("#signupResponse").val();
+		let temp = $(".displayMessage").html();
+		let addn = "<p>You have succesfully signed up!</p>";
+		if (!temp.includes(addn) && temp2.length != 0) temp = addn + temp;
+		$("#kindaForm").html(temp);
+	});
 	$("#mce-EMAIL").keypress(function(e) {
 		if (e.which == 13) {
 			$("#mc-embedded-subscribe").trigger("click");
