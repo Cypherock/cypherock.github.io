@@ -574,7 +574,8 @@ body {
 /*Aditya's edit*/
 #myText {
 	position: relative;
-	top: -200px;
+	top: 0px;
+	/* border: 1px solid red; */
 }
 #community {
 	position: relative;
@@ -583,6 +584,7 @@ body {
 }
 #mc-embedded-subscribe {
 	background-color: #4272d7;
+	width: 20%;
 	top: -45px;
 	float: right;
 	color: white;
@@ -615,7 +617,7 @@ body {
 	height: 30px;
 	color: black;
 	padding-left: 20px;
-	width: 300px;
+	width: 70%;
 	text-align: left;
 	font-family: Poppins-regular;
 	font-size: 16px;
