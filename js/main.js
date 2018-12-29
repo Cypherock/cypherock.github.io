@@ -86,10 +86,10 @@
 	});
 	$("#mc-embedded-subscribe").click(function() {
 		let temp2 = $("#signupResponse").val();
-		let temp = $(".displayMessage").html();
+		let temp = "";
 		let addn = "<p>You have succesfully signed up!</p>";
 		if (!temp.includes(addn) && temp2.length != 0) temp = addn + temp;
-		$("#kindaForm").html(temp);
+		$("#someText").html(temp);
 	});
 	$("#mce-EMAIL").keypress(function(e) {
 		if (e.which == 13) {
