@@ -574,7 +574,7 @@ body {
 /*Aditya's edit*/
 #myText {
 	position: relative;
-	top: 0px;
+	top: -100px;
 	/* border: 1px solid red; */
 }
 #community {
@@ -617,7 +617,7 @@ body {
 	height: 30px;
 	color: black;
 	padding-left: 20px;
-	width: 65%;
+	width: 64%;
 	text-align: left;
 	font-family: Poppins-regular;
 	font-size: 16px;
