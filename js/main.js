@@ -84,15 +84,15 @@
 			}
 		}, delay);
 	});
-	$("#mc-embedded-subscribe").click(function() {
-		let temp2 = $("#signupResponse").val();
-		let temp = $("#kindaForm").html();
-		let addn =
-			'<p class="subscribeMessage">You have subscribed succesfully!</p>';
-		if (!temp.includes(addn)) temp = addn + temp;
-		$("#kindaForm").html(temp);
-		$("#signupResponse").val(temp2);
-	});
+// 	$("#mc-embedded-subscribe").click(function() {
+// 		let temp2 = $("#signupResponse").val();
+// 		let temp = $("#kindaForm").html();
+// 		let addn =
+// 			'<p class="subscribeMessage">You have subscribed succesfully!</p>';
+// 		if (!temp.includes(addn)) temp = addn + temp;
+// 		$("#kindaForm").html(temp);
+// 		$("#signupResponse").val(temp2);
+// 	});
 	$("#mce-EMAIL").keypress(function(e) {
 		if (e.which == 13) {
 			$("#mc-embedded-subscribe").trigger("click");
