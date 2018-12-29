@@ -596,6 +596,7 @@ body {
 	width: 25%;
 	height: 100%;
 	padding-top: 2%;
+	padding-left: 6%;
 }
 .bodyMain {
 	position: relative;
@@ -608,6 +609,8 @@ body {
 .dispText {
 	/* border: 1px solid red; */
 	margin-top: 15%;
+	padding-left: 3.5%;
+	padding-right: 3.5%;
 }
 #mc_embed_signup {
 	width: 25%;
