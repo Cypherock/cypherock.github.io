@@ -574,25 +574,21 @@ body {
 /*Aditya's edit*/
 #myText {
 	position: relative;
-	top: -15px;
+	top: -200px;
 }
 #community {
 	position: relative;
-	bottom: 850px;
-	left: 750px;
-}
-#mc_embed_signup {
-	position: relative;
-	z-index: 100;
-	top: 550px;
-	right: 700px;
+	top: 20px;
+	left: 0px;
 }
 #mc-embedded-subscribe {
 	background-color: #4272d7;
+	top: -45px;
+	float: right;
 	color: white;
 	position: relative;
-	right: -207px;
-	top: -10px;
+	/* right: -207px;
+	top: -10px; */
 	width: 125px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -609,8 +605,8 @@ body {
 /*hi*/
 .signupResponse {
 	position: relative;
-	top: 35px;
-	right: 98px;
+	/* top: 35px;
+	right: 98px; */
 	background-color: white;
 	border: 1px solid white;
 	border-radius: 50px;
@@ -650,4 +646,32 @@ body {
 #testing {
 	position: relative;
 	top: -130px;
+}
+.displayMessage {
+	font-family: poppins-regular;
+	font-weight: 700;
+	font-size: 15px;
+	position: relative;
+	top: -320px;
+	left: 750px;
+	color: white;
+	opacity: 1 !important;
+}
+#mc_embed_signup {
+	/* border: 1px solid red; */
+	width: 23%;
+	margin: 0 auto 0 auto !important;
+	position: relative;
+	z-index: 100;
+	top: 0px;
+	right: 0px;
+}
+.mc-field-group {
+	/* border: 1px solid white; */
+	margin: 0 auto 0 auto !important;
+	align-content: center;
+}
+form {
+	/* border: 1px solid green; */
+	margin: 0 auto 0 auto;
 }
