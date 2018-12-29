@@ -84,6 +84,9 @@
 			}
 		}, delay);
 	});
+	$("#mc-embedded-subscribe").on('click', function() {
+		$("#mc-embedded-subscribe").css("top", "-30px");
+	});
 	$("#mce-EMAIL").keypress(function(e) {
 		if (e.which == 13) {
 			$("#mc-embedded-subscribe").trigger("click");
