@@ -334,7 +334,11 @@ body {
 	.w-full-xl {
 		width: 100%;
 	}
-
+	#mc_embed_signup {
+		width: 50% !important;
+		margin: 0 auto 0 auto !important;
+		z-index: 100;
+	}
 	/*---------------------------------------------*/
 }
 
@@ -512,6 +516,11 @@ body {
 	.respon1 {
 		font-size: 45px;
 	}
+	#mc_embed_signup {
+		width: 90% !important;
+		margin: 0 auto 0 auto !important;
+		z-index: 100;
+	}
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -606,11 +615,16 @@ body {
 	height: 90%;
 	float: top;
 }
+.myText {
+	font-weight: 700 !important;
+	font-size: 33px;
+	/* line-height: 1rem; */
+}
 .dispText {
 	/* border: 1px solid red; */
 	margin-top: 15%;
-	padding-left: 3.5%;
-	padding-right: 3.5%;
+	padding-left: 4.5%;
+	padding-right: 4.5%;
 }
 #mc_embed_signup {
 	width: 25%;
