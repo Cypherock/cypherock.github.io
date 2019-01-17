@@ -6,7 +6,6 @@
       '<div class="dummy-wrap"><p class="dummy">Thank you for signing up!</p></div>';
     if (!temp.includes(addn) && temp2.length != 0) temp = addn + temp;
     document.getElementById("someText").innerHTML = temp;
-    alert(temp);
   };
   ("use strict");
 
