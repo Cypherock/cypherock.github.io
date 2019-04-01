@@ -1,158 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=UA-131511796-1"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-131511796-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-			gtag("config", "UA-131511796-1");
-		</script>
+      gtag("config", "UA-131511796-1");
+    </script>
 
-		<title>Decentralized Recovery System</title>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--===============================================================================================-->
-		<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
-		<!--===============================================================================================-->
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="vendor/bootstrap/css/bootstrap.min.css"
-		/>
-		<!--===============================================================================================-->
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
-		/>
-		<!--===============================================================================================-->
-		<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
-		<!--===============================================================================================-->
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="vendor/select2/select2.min.css"
-		/>
-		<!--===============================================================================================-->
-		<link rel="stylesheet" type="text/css" href="css/util.css" />
-		<link rel="stylesheet" type="text/css" href="css/main.css" />
-		<!--===============================================================================================-->
-	</head>
-	<body>
-		<!--  -->
-		<div class="simpleslide100">
-			<div
-				class="simpleslide100-item bg-img1"
-				style="background-image: url('images/bg01.jpg');"
-			></div>
-			<div
-				class="simpleslide100-item bg-img1"
-				style="background-image: url('images/bg02.jpg');"
-			></div>
-			<div
-				class="simpleslide100-item bg-img1"
-				style="background-image: url('images/bg03.jpg');"
-			></div>
-		</div>
+    <title>Decentralized Recovery System</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/select2/select2.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--===============================================================================================-->
+  </head>
+  <body>
+    <!--  -->
+    <div class="simpleslide100">
+      <div
+        class="simpleslide100-item bg-img1"
+        style="background-image: url('images/bg01.jpg');"
+      ></div>
+      <div
+        class="simpleslide100-item bg-img1"
+        style="background-image: url('images/bg02.jpg');"
+      ></div>
+      <div
+        class="simpleslide100-item bg-img1"
+        style="background-image: url('images/bg03.jpg');"
+      ></div>
+    </div>
 
-		<div class="wrapperMain overlay1">
-			<!--  -->
-			<div class="headerMain">
-				<div class="wrapperImg">
-					<a href="#"><img src="images/icons/logo.png" alt="LOGO"/></a>
-				</div>
-				<div class="flex-w flex-c-m p-b-35" id="community">
-					<!--<a href="https://www.facebook.com/cypherock" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+    <div class="wrapperMain overlay1">
+      <!--  -->
+      <div class="headerMain">
+        <div class="wrapperImg">
+          <a href="#"><img src="images/icons/logo.png" alt="LOGO"/></a>
+        </div>
+        <div class="flex-w flex-c-m p-b-35" id="community">
+          <!--<a href="https://www.facebook.com/cypherock" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
 					<i class="fa fa-facebook"></i>
 				</a> -->
-					<a
-						href="https://twitter.com/cypherockwallet"
-						target="_blank"
-						class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
-					>
-						<i class="fa fa-twitter"></i>
-					</a>
+          <a
+            href="https://twitter.com/cypherockwallet"
+            target="_blank"
+            class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
+          >
+            <i class="fa fa-twitter"></i>
+          </a>
 
-					<!--<a href="https://www.youtube.com/channel/UC9XIWQHUl7lawXgP0LIg5xg" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+          <!--<a href="https://www.youtube.com/channel/UC9XIWQHUl7lawXgP0LIg5xg" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
 					<i class="fa fa-youtube-play"></i>
 				</a> -->
-					<a
-						href="https://www.linkedin.com/company/cypherock"
-						target="_blank"
-						class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
-					>
-						<i class="fa fa-linkedin"></i>
-					</a>
-					<!--<a href="https://www.reddit.com/r/cypherock" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+          <a
+            href="https://www.linkedin.com/company/cypherock"
+            target="_blank"
+            class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <!--<a href="https://www.reddit.com/r/cypherock" target="_blank" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
 					<i class="fa fa-reddit"></i>
 				</a> -->
-					<a
-						href="https://t.me/joinchat/FvwwvVEMK3XxN__pwnscMQ"
-						target="_blank"
-						class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
-					>
-						<i class="fa fa-telegram"></i>
-					</a>
-					<a
-						href="mailto:info@cypherock.com"
-						target="_blank"
-						class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
-					>
-						<i class="fa fa-envelope"></i>
-					</a>
-				</div>
-			</div>
+          <a
+            href="https://t.me/joinchat/FvwwvVEMK3XxN__pwnscMQ"
+            target="_blank"
+            class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
+          >
+            <i class="fa fa-telegram"></i>
+          </a>
+          <a
+            href="mailto:info@cypherock.com"
+            target="_blank"
+            class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5"
+          >
+            <i class="fa fa-envelope"></i>
+          </a>
+        </div>
+      </div>
 
-			<!--  -->
+      <!--  -->
 
-			<div class="bodyMain">
-				<h3 class="dispText l1-txt1 txt-center p-b-40 respon1">
-					<b class="myText"
-						>Your Recovery Phrases deserve the same security as your Private
-						Keys</b
-					>
-				</h3>
-				<!-- Begin Mailchimp Signup Form -->
+      <div class="bodyMain">
+        <h3 class="dispText l1-txt1 txt-center p-b-40 respon1">
+          <b class="myText"
+            >Your Recovery Phrases deserve the same security as your Private
+            Keys</b
+          >
+        </h3>
+        <!-- Begin Mailchimp Signup Form -->
 
-				<div id="mc_embed_signup">
-					<form
-						action="https://cypherock.us7.list-manage.com/subscribe/post?u=5b8742165f0836d09b8f0df42&amp;id=08e2bb3aeb"
-						method="post"
-						id="mc-embedded-subscribe-form"
-						name="mc-embedded-subscribe-form"
-						class="validate"
-						target="_blank"
-						novalidate
-					>
-						<input
-							type="email"
-							value=""
-							name="EMAIL"
-							class="signupResponse required email"
-							id="mce-EMAIL"
-							placeholder="Enter your email"
-						/>
-						<input
-							type="submit"
-							value="SIGN UP"
-							name="subscribe"
-							id="mc-embedded-subscribe"
-							class="button"
-						/>
-					</form>
-				</div>
-
-				<!--End mc_embed_signup-->
-				<div class="flex-w flex-c-m cd100">
-					<!-- 				<div class="flex-col-c wsize1 m-b-30">
+        <div id="mc_embed_signup">
+          <form
+            action="https://cypherock.us7.list-manage.com/subscribe/post?u=5b8742165f0836d09b8f0df42&amp;id=08e2bb3aeb"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <input
+              type="email"
+              value=""
+              name="EMAIL"
+              class="signupResponse required email"
+              id="mce-EMAIL"
+              placeholder="Enter your email"
+            />
+            <input
+              type="submit"
+              value="SIGN UP"
+              name="subscribe"
+              id="mc-embedded-subscribe"
+              class="button"
+            />
+          </form>
+        </div>
+        <div id="someText"></div>
+        <!--End mc_embed_signup-->
+        <div class="flex-w flex-c-m cd100">
+          <!-- 				<div class="flex-col-c wsize1 m-b-30">
 					<span class="l1-txt2 p-b-9 days">35</span>
 					<span class="s1-txt1 where1 p-l-35">Days</span>
 				</div>
@@ -171,75 +171,114 @@
 					<span class="l1-txt2 p-b-9 seconds">39</span>
 					<span class="s1-txt1 where1 p-l-35">Seconds</span>
 				</div> -->
-				</div>
-			</div>
+        </div>
+      </div>
 
-			<!--  -->
-		</div>
-		<div class="displayMessage" id="someText"></div>
-		<script
-			type="text/javascript"
-			src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-		></script>
-		<script type="text/javascript">
-			(function($) {
-				window.fnames = new Array();
-				window.ftypes = new Array();
-				fnames[0] = "EMAIL";
-				ftypes[0] = "email";
-			})(jQuery);
-			var $mcj = jQuery.noConflict(true);
-		</script>
-		<!--===============================================================================================-->
-		<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-		<!--===============================================================================================-->
-		<script src="vendor/bootstrap/js/popper.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-		<!--===============================================================================================-->
-		<script src="vendor/select2/select2.min.js"></script>
-		<!--===============================================================================================-->
-		<script src="vendor/countdowntime/moment.min.js"></script>
-		<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-		<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-		<script src="vendor/countdowntime/countdowntime.js"></script>
-		<script>
-			$(".cd100").countdown100({
-				/*Set Endtime here*/
-				/*Endtime must be > current time*/
-				endtimeYear: 0,
-				endtimeMonth: 0,
-				endtimeDate: 35,
-				endtimeHours: 19,
-				endtimeMinutes: 0,
-				endtimeSeconds: 0,
-				timeZone: ""
-				// ex:  timeZone: "America/New_York"
-				//go to " http://momentjs.com/timezone/ " to get timezone
-			});
-		</script>
-		<!--===============================================================================================-->
-		<script src="vendor/tilt/tilt.jquery.min.js"></script>
-		<!--================================================================================================-->
-		<script
-			type="text/javascript"
-			src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-		></script>
-		<script type="text/javascript">
-			(function($) {
-				window.fnames = new Array();
-				window.ftypes = new Array();
-				fnames[0] = "EMAIL";
-				ftypes[0] = "email";
-			})(jQuery);
-			var $mcj = jQuery.noConflict(true);
-		</script>
-		<!--================================================================================================-->
-		<script>
-			$(".js-tilt").tilt({
-				scale: 1.1
-			});
-		</script>
-		<!--===============================================================================================-->
-		<script src="js/main.js"></script>
-	</body>
+      <!--  -->
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+    ></script>
+    <script type="text/javascript">
+      (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countdowntime/moment.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone.min.js"></script>
+    <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <script>
+      $(".cd100").countdown100({
+        /*Set Endtime here*/
+        /*Endtime must be > current time*/
+        endtimeYear: 0,
+        endtimeMonth: 0,
+        endtimeDate: 35,
+        endtimeHours: 19,
+        endtimeMinutes: 0,
+        endtimeSeconds: 0,
+        timeZone: ""
+        // ex:  timeZone: "America/New_York"
+        //go to " http://momentjs.com/timezone/ " to get timezone
+      });
+    </script>
+    <!--===============================================================================================-->
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+    <!--================================================================================================-->
+    <script
+      type="text/javascript"
+      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+    ></script>
+    <script type="text/javascript">
+      (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
+    <!--================================================================================================-->
+    <script>
+      $(".js-tilt").tilt({
+        scale: 1.1
+      });
+    </script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+    <script>
+      var div = document.createElement("div");
+      div.className = "fb-customerchat";
+      div.setAttribute("page_id", "559596207753510");
+      div.setAttribute("ref", "");
+      document.body.appendChild(div);
+      window.fbMessengerPlugins = window.fbMessengerPlugins || {
+        init: function() {
+          FB.init({
+            appId: "1678638095724206",
+            autoLogAppEvents: true,
+            xfbml: true,
+            version: "v3.0"
+          });
+        },
+        callable: []
+      };
+      window.fbAsyncInit =
+        window.fbAsyncInit ||
+        function() {
+          window.fbMessengerPlugins.callable.forEach(function(item) {
+            item();
+          });
+          window.fbMessengerPlugins.init();
+        };
+      setTimeout(function() {
+        (function(d, s, id) {
+          var js,
+            fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {
+            return;
+          }
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        })(document, "script", "facebook-jssdk");
+      }, 0);
+    </script>
+  </body>
 </html>
